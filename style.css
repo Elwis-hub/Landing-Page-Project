@@ -12,7 +12,7 @@ padding: 0;
     align-items: center;
     justify-content: space-between;
     padding: 16px;
-       
+    flex-shrink: 0;
 }
 .header-logo {
  display: flex;
@@ -37,7 +37,7 @@ padding: 0;
     color: white;
     padding-left: 400px;
     padding-right: 400px;
-    flex-shrink: 0;
+
     
 }
 .container1 {
@@ -46,10 +46,11 @@ padding: 0;
 
 }
 
+/* This website is awesome */
 #TWA {
     font-size: 48px;
     font-weight: 900;
-  
+
 }
 
 .information {
@@ -59,28 +60,96 @@ padding: 0;
     color:#1f2937;
     font-weight: 900;
     padding: 38px;
-    
+
 }
 
-.contaiberB {
+.containerB {
     display: flex;
     justify-content: center;
-  
-
-    
+    gap: 160px;
+    padding: 18px;
+    padding-bottom: 140px;
 }
 
 .box {
     border: solid #3882f6 5px;
-    height: 250px;
-    width: 250px;
-    border-radius: 18px;
+    height: 220px;
+    width: 220px;
+    border-radius: 20px;
+}
+
+.text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-left: 20px;
+    padding-top: 15px;
+    font-size: 18px;
+    color:#1f2937;
 }
 
 .itens {
   max-width: 200px;
 }
 
+/* Verse section */
+.Verse {
+    background-color: #e5e7eb;
+     padding: 100px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.Verse-text {
+    font-size: 30px;
+    font-weight: 100;
+    font-style: italic;
+    height: 170px;
+    width: 600px;
+}
+
+.Verse-book {
+    
+    display: flex;
+    justify-content: center;
+    padding-left: 500px;
+    font-weight: 900;
+    
+}
+
+/* Call to action */
+.call {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #3882f6;
+    padding: 50px;
+    margin: 100px 400px;
+    border-radius: 9px;
+}
+
+.call-text-1 {
+    color: white;
+    font-size: 25px;
+    font-weight: 900;
+}
+
+#call-text-2 {
+    font-size: 18px;
+    font-weight: 100;
+    margin: 0;
+}
+
+#button-2 {
+   border: solid white;
+   border-radius: 10px;
+   border-width: 2px;
+}
+
+/* Footer Section */
 .footer {
     display: flex;
     justify-content: center;
@@ -97,8 +166,8 @@ a {
 }
 
 img {
-    width: 600px;
-    height: 360px;
+    width: 500px;
+    height: 260px;
 }
 
 button {
